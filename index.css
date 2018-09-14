@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+
+nav {
+  color: #fff;
+  background: #000;
+}
+
+h1, h2, h3, p, pre {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 34px;
+}
+
+code {
+  background: #eee;
+  padding: 11px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: right;
+  /* margin: 34px; */
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+#templates {
+  display: none;
+}
+

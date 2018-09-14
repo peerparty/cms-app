@@ -1,0 +1,13 @@
+{
+  "name": "hypercms",
+  "version": "0.0.1",
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "hyperdb": "",
+    "markdown": "^0.5.0",
+    "pump": "",
+    "random-access-idb": "",
+    "signalhub": "",
+    "webrtc-swarm": ""
+  }
+}
