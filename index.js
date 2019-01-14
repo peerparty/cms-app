@@ -1,11 +1,6 @@
-const cms = require('./cms'),
-  markdown = require('markdown')
+const cms = require('./cms')
 
 let pagesObj = {}
-
-function m2h(str) {
-  return markdown.markdown.toHTML(str)
-}
 
 function append(sel, node) {
   document.querySelector(sel).appendChild(node)
@@ -16,7 +11,7 @@ function getTemplate(clazz) {
 }
 
 function showPage(page) {
-  document.querySelector('#content').innerHTML = m2h(page.content)
+  document.querySelector('#content').innerHTML = page.content
 }
 
 function handleNav(e) {
@@ -26,7 +21,7 @@ function handleNav(e) {
 function addNavItem(page) {
   var node = getTemplate('.nav-item')
   node.setAttribute('id', page.id)
-  node.querySelector('a').innerHTML = m2h(page.title)
+  node.querySelector('a').innerHTML = page.title
   node.addEventListener('click', handleNav)
   append('nav ul', node)
 }
