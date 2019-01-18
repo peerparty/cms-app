@@ -37,6 +37,7 @@ function handlePages(pages) {
     showPage(pages[0])
     addNavItem(page)
   })
+  window.removeEventListener('peer', getPages)
 }
 
 function getPages() {
