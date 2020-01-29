@@ -1,7 +1,4 @@
 # P2EE CMS WEBAPP 
 
-Learn more at [https://cms.p2ee.org](https://cms.p2ee.org).
+Very light webapp/UI for [p2ee CMS cli](https://github.com/peerparty/cms-cli)
 
-Foo
-
-...bar

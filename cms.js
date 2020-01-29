@@ -6,7 +6,7 @@ const hyperdb = require('hyperdb'),
 //  hyperdrive = require('hyperdrive'),
   pump = require('pump')
 
-const key = '3f111b77243a82b96aa91a38e4b2c4d4bd3b208d5e154ecc8505f9dffc3bd8dd'
+const key = 'c15684126b5592f0cda413a2dd14f88ec675240a4f60088a546a06673257f719'
 const DEFAULT_SIGNALHUBS = 'https://signalhub.p2ee.org'
 //const DEFAULT_SIGNALHUBS = 'http://localhost/signalhub'
 //var DEFAULT_SIGNALHUBS = 'https://signalhub-jccqtwhdwc.now.sh'
